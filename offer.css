@@ -1,0 +1,42 @@
+body {
+    background-color: #E0E0E2;
+}
+
+#logo {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid;
+    border-width: 1%;
+    border-color: black;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+h1 {
+    color: #721817;
+}
+
+h2 {
+    color: #721817;
+}

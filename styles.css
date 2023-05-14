@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(203, 252, 212);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.navigation {
+    background-color: #2a0f00f7;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 0.9rem;
+    margin-bottom: 0px;
+}
+
+.navigation a {
+    display: flex;
+    padding: 5px;
+    margin: 0 1px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+}
+
+.navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.21);
+}
+
+#offer {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border-radius: 2rem;
+    opacity: 0.5;
+}
+
+#offerText h1{
+    position: absolute;
+    top: 220px;
+    left: 10px;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 2rem;
+}
+#offerText p{
+    position: absolute;
+    top: 280px;
+    left: 10px;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 1rem;
+}
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+.gaps {
+    gap: 10px;
+}
+.card {
+    border: solid;
+    border-width: 0px;
+    background-color:rgba(110, 214, 199, 0.552);
+    border-radius: 1rem;
+    padding-top: 1px;
+    gap: 10px;
+}
+
+.cardImg {
+    display: flex;
+    margin-top: 1rem;
+    border: solid;
+    border-width: 0px;
+    border-radius: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header > img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+#footLogo {
+    display: grid;
+    align-self: auto;
+}
+
+#copyright {
+    padding-top: 2rem;
+}
